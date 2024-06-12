@@ -77,3 +77,54 @@
 | `npx react-scripts test` | Run tests (used internally by `npm test`). |
 | `npx react-scripts eject` | Eject the configuration (used internally by `npm run eject`). |
 
+
+
+## Vite + React Terminal Commands
+
+| Command | Description |
+|---------|-------------|
+| `npm init vite@latest my-app -- --template react` | Create a new Vite + React application named "my-app". |
+| `cd my-app` | Change directory to the "my-app" folder. |
+| `npm install` | Install all the dependencies listed in `package.json`. |
+| `npm run dev` | Start the development server and open the Vite + React application in the browser. |
+| `npm run build` | Create a production build of the Vite + React application. |
+| `npm run serve` | Serve the production build locally. |
+| `npm install <package-name>` | Install a specific npm package and add it to the dependencies in `package.json`. |
+| `npm install --save-dev <package-name>` | Install a specific npm package and add it to the devDependencies in `package.json`. |
+| `npm uninstall <package-name>` | Uninstall a specific npm package and remove it from `package.json`. |
+| `npx vite` | Run Vite commands directly. |
+| `npx vite build` | Manually create a production build of the app. |
+| `npx vite preview` | Preview the production build locally. |
+
+## Git Commands for Vite + React Projects
+
+| Command | Description |
+|---------|-------------|
+| `git init` | Initialize a new Git repository in the Vite + React project. |
+| `git clone <repo-url>` | Clone an existing Vite + React project repository. |
+| `git status` | Show the status of changes in the working directory. |
+| `git add .` | Stage all changes in the working directory for the next commit. |
+| `git commit -m "message"` | Commit the staged changes with a message. |
+| `git push` | Push the local commits to the remote repository. |
+| `git pull` | Fetch and merge changes from the remote repository. |
+| `git branch` | List all the branches in the repository. |
+| `git checkout -b <branch-name>` | Create a new branch and switch to it. |
+| `git checkout <branch-name>` | Switch to an existing branch. |
+| `git merge <branch-name>` | Merge a branch into the current branch. |
+| `git branch -d <branch-name>` | Delete a local branch. |
+| `git remote add origin <repo-url>` | Add a remote repository. |
+| `git fetch` | Download objects and refs from another repository. |
+| `git reset --hard HEAD` | Discard all changes and reset the working directory to the last commit. |
+
+## Custom Scripts
+
+| Command | Description |
+|---------|-------------|
+| `npm run lint` | Run linter to check for code style issues (if configured). |
+| `npm run lint:fix` | Run linter and automatically fix code style issues (if configured). |
+| `npm run format` | Format the code using a tool like Prettier (if configured). |
+| `npm run test` | Run tests using the testing framework configured with Vite. |
+| `npm run test:coverage` | Run tests and generate a code coverage report (if configured). |
+| `npm run <custom-script>` | Run a custom script defined in the `scripts` section of `package.json`. |
+
+
